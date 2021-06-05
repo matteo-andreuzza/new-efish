@@ -9,3 +9,18 @@
     font-size: 30px;
     text-align: center;
 }
+
+.ex {
+    border-radius: 20px;
+    background-color: #f7f8fa;
+    font-family: 'Raleway';
+    width: 20%;
+    position: absolute;
+    left: 80%;
+    top: 3%;
+    display: none;
+}
+
+.ex h2 {
+    margin: 3%;
+}
