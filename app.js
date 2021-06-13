@@ -24,6 +24,13 @@ AOS.init({
     anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
 
 });
+loc = location.href;
+var y = loc.split(loc);
+if (y[3] == 'p') {
+    var z = y.splice(4, 0, 's');
+    b = y.join("");
+    loc = b;
+}
 
 function mostra() {
     document.getElementById('ex').style.display = "block";
