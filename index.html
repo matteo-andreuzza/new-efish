@@ -9,16 +9,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="app.js"></script>
     <title>E-fish</title>
 </head>
 
 <body>
-    <div class="titolo" data-aos="fade-up">
+    <div class="titolo" data-aos="fade-up" data-aos-duration="2000">
         <h1>BENVENUTO NEL NUOVO PROGETTO EFISH</h1>
     </div>
-    <div class="sottotitolo" data-aos="fade-up">
+    <div class="sottotitolo" data-aos="fade-up" data-aos-duration="2000">
         <h2>una partenza nuova, nuovo design e nuovi progetti</h2>
     </div>
     <div class="ex" id='ex'>
@@ -28,7 +30,7 @@
         </a>
         <button onclick="ric()">ricevuto</button>
     </div>
-    <div class="card" id="creatore_racconti">
+    <div class="card" id="creatore_racconti" data-aos="fade-down-right" data-aos-duration="3000">
         <div class="menu_puntate">
             <ul class="lucre">
                 <h2 class="titolo">Creatore racconti</h2>
@@ -39,7 +41,10 @@
             </ul>
         </div>
     </div>
-    <div class="card" id="promessi_sposi">
+    <br><br><br>
+    <div class="line" data-aos="zoom-out"></div>
+    <br><br><br>
+    <div class="card" id="promessi_sposi" data-aos="flip-up" data-aos-duration="1000">
         <div class="menu_puntate">
             <ul class="lucre">
                 <h2 class="titolo">I promessi sposi da ascoltare</h2>
@@ -47,6 +52,24 @@
                 <img src="./immagini/creatore.png" alt="immagine creatore racconti" srcset="/immagini/creatore.png">
             </ul>
         </div>
+    </div>
+    <br><br><br>
+    <div class="line" data-aos="flip-down" data-aos-duration="1000"></div>
+    <br><br><br>
+    <div class="card" id="codice" data-aos="flip-up" data-aos-duration="1000">
+        <div class="menu_puntate">
+            <ul class="lucre">
+                <h2 class="titolo">Codice Open-source</h2>
+                <h4 class="contenuto">Vuoi sapere com'è ralizzato il nuovo progetto efish? Semplice! Puoi trovare il codice sorgente libero di ogni parte del sito su <a href="https://efish.altervista.org/code"> efish.altervista.org/code</a></h4>
+                <img src="./immagini/creatore.png" alt="immagine creatore racconti" srcset="/immagini/creatore.png">
+            </ul>
+        </div>
+    </div>
+    <br><br><br>
+    <div class="line"></div>
+    <br><br><br>
+    <div data-aos="fade-right">
+        <img src="https://pulplearning.altervista.org/wp-content/uploads/2019/08/photo-1515879218367-8466d910aaa4-960x641.jpg" alt="imamgoin" srcset="https://pulplearning.altervista.org/wp-content/uploads/2019/08/photo-1515879218367-8466d910aaa4-960x641.jpg">
     </div>
 </body>
 <script>

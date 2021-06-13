@@ -27,7 +27,7 @@
 
 .card {
     font-family: 'Raleway';
-    fontsize: 20px;
+    font-size: 20px;
 }
 
 .card:hover .menu_puntate {
@@ -62,8 +62,6 @@
     display: none
 }
 
-.card #promessi_sposi {
-    position: absolute;
-    left: 50%;
-    right: 50%;
+.line {
+    border: solid #dadfe9 0.25px;
 }
